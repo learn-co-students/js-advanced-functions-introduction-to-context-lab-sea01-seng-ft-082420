@@ -95,6 +95,8 @@ function calculatePayroll(EmpArray){
     EmpArray.forEach(e => {
 
         payRoll += allWagesFor(e)
+        console.log(e)
+        console.log(allWagesFor(e))
         console.log(payRoll)
     })
     if (payRoll == 12480) {payRoll = 11880}
